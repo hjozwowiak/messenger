@@ -1,6 +1,5 @@
 defmodule Auth.User do
 	use Storage.Schema
-  use Storage.Service
 
   alias __MODULE__
 

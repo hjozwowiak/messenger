@@ -22,6 +22,8 @@ defmodule Auth.MixProject do
   end
 
   defp deps do
-    []
+    [
+      {:storage, in_umbrella: true}
+    ]
   end
 end

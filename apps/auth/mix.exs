@@ -23,6 +23,7 @@ defmodule Auth.MixProject do
 
   defp deps do
     [
+      {:pbkdf2_elixir, "~> 2.0"},
       {:storage, in_umbrella: true}
     ]
   end

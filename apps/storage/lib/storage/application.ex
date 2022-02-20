@@ -5,7 +5,7 @@ defmodule Storage.Application do
 
   @impl true
   def start(_type, _args) do
-    children = []
+    children = [Storage.Repo]
 
     opts = [strategy: :one_for_one, name: Storage.Supervisor]
     Supervisor.start_link(children, opts)

@@ -6,6 +6,5 @@ config :storage, Storage.Repo,
   database: "messenger",
   username: "postgres",
   password: "",
-  hostname: "localhost"
-
-import_config "#{Mix.env()}.exs"
+  hostname: "localhost",
+  pool: Ecto.Adapters.SQL.Sandbox

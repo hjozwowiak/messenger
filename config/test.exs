@@ -7,4 +7,4 @@ config :storage, Storage.Repo,
   username: "postgres",
   password: "",
   hostname: "localhost",
-	pool: Ecto.Adapters.SQL.Sandbox
+  pool: Ecto.Adapters.SQL.Sandbox
